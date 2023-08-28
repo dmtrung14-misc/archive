@@ -1,4 +1,4 @@
-class Solution:
+leetcode/Minimum Size Subarray Sum.pyclass Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         if sum(nums) < target:
             return 0
